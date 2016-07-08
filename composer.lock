@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1342a147b788083a903bdd811cf8b1a8",
-    "content-hash": "073a4d8adce8080a2e60222db7a59192",
+    "hash": "ff4c90a76d5e1c8db98c5b9b31a9ef78",
+    "content-hash": "0fba8248c5f437fa428a7ed0dd7892c0",
     "packages": [
         {
             "name": "php-ai/php-ml",
-            "version": "dev-develop",
+            "version": "v0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-ai/php-ml.git",
-                "reference": "6c7416a9c40b596afce625617dce07892ccaa2fc"
+                "reference": "0213208a9684ed72d05d9b81bca9fb1261db567e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-ai/php-ml/zipball/6c7416a9c40b596afce625617dce07892ccaa2fc",
-                "reference": "6c7416a9c40b596afce625617dce07892ccaa2fc",
+                "url": "https://api.github.com/repos/php-ai/php-ml/zipball/0213208a9684ed72d05d9b81bca9fb1261db567e",
+                "reference": "0213208a9684ed72d05d9b81bca9fb1261db567e",
                 "shasum": ""
             },
             "require": {
@@ -51,15 +51,13 @@
                 "machine learning",
                 "pattern recognition"
             ],
-            "time": "2016-07-06 22:29:58"
+            "time": "2016-07-07 22:03:22"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "php-ai/php-ml": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

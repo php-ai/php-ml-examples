@@ -12,6 +12,6 @@
     }
   ],
   "require": {
-    "php-ai/php-ml": "dev-develop"
+    "php-ai/php-ml": "0.1.*"
   }
 }
