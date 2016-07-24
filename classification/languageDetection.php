@@ -1,5 +1,7 @@
 <?php
 
+namespace PhpmlExamples;
+
 include 'vendor/autoload.php';
 
 use Phpml\Dataset\CsvDataset;
@@ -36,4 +38,4 @@ $classifier->train($randomSplit->getTrainSamples(), $randomSplit->getTrainLabels
 
 $predictedLabels = $classifier->predict($randomSplit->getTestSamples());
 
-echo Accuracy::score($randomSplit->getTestLabels(), $predictedLabels);
+echo 'Accuracy: ' . Accuracy::score($randomSplit->getTestLabels(), $predictedLabels);
