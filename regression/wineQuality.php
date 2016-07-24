@@ -24,4 +24,4 @@ foreach ($predicted as &$target) {
     $target = round($target, 0);
 }
 
-echo 'Accuracy: ' . Accuracy::score($split->getTestLabels(), $predicted);
+echo 'Accuracy: '.Accuracy::score($split->getTestLabels(), $predicted);

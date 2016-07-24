@@ -31,11 +31,11 @@ $tfIdfTransformer->transform($samples);
 
 $dataset = new ArrayDataset($samples, $dataset->getTargets());
 
-$randomSplit =  new StratifiedRandomSplit($dataset, 0.1);
+$randomSplit = new StratifiedRandomSplit($dataset, 0.1);
 
 $classifier = new SVC(Kernel::RBF, 10000);
 $classifier->train($randomSplit->getTrainSamples(), $randomSplit->getTrainLabels());
 
 $predictedLabels = $classifier->predict($randomSplit->getTestSamples());
 
-echo 'Accuracy: ' . Accuracy::score($randomSplit->getTestLabels(), $predictedLabels);
+echo 'Accuracy: '.Accuracy::score($randomSplit->getTestLabels(), $predictedLabels);
