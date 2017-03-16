@@ -5,12 +5,12 @@ namespace PhpmlExamples;
 include 'vendor/autoload.php';
 
 use Phpml\CrossValidation\StratifiedRandomSplit;
-use Phpml\Dataset\Demo\Wine;
+use Phpml\Dataset\Demo\WineDataset;
 use Phpml\Metric\Accuracy;
 use Phpml\Regression\SVR;
 use Phpml\SupportVectorMachine\Kernel;
 
-$dataset = new Wine();
+$dataset = new WineDataset();
 $split = new StratifiedRandomSplit($dataset);
 
 $regression = new SVR(Kernel::RBF, 3, 0.1, 10);
