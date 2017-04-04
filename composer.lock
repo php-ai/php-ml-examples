@@ -4,28 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1342a147b788083a903bdd811cf8b1a8",
-    "content-hash": "073a4d8adce8080a2e60222db7a59192",
+    "content-hash": "68e4c882c7f6bd43b063f4143871e7bc",
     "packages": [
         {
             "name": "php-ai/php-ml",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-ai/php-ml.git",
-                "reference": "52cd58acb0977407c6b38443aab9e443969fc83d"
+                "reference": "b27f08f420456e4fc385a1b0570271a3a3f6ca24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-ai/php-ml/zipball/52cd58acb0977407c6b38443aab9e443969fc83d",
-                "reference": "52cd58acb0977407c6b38443aab9e443969fc83d",
+                "url": "https://api.github.com/repos/php-ai/php-ml/zipball/b27f08f420456e4fc385a1b0570271a3a3f6ca24",
+                "reference": "b27f08f420456e4fc385a1b0570271a3a3f6ca24",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^5.2"
+                "phpunit/phpunit": "^6.0"
             },
             "type": "library",
             "autoload": {
@@ -46,12 +45,15 @@
             "description": "PHP-ML - Machine Learning library for PHP",
             "homepage": "https://github.com/php-ai/php-ml",
             "keywords": [
+                "Neural network",
                 "artificial intelligence",
                 "computational learning theory",
+                "data science",
+                "feature extraction",
                 "machine learning",
                 "pattern recognition"
             ],
-            "time": "2016-07-20 07:15:52"
+            "time": "2017-03-29 10:58:12"
         }
     ],
     "packages-dev": [],
