@@ -12,24 +12,29 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-ai/php-ml.git",
-                "reference": "b27f08f420456e4fc385a1b0570271a3a3f6ca24"
+                "reference": "797952e1bcac18f139bb00d623510ffec0cbd926"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-ai/php-ml/zipball/b27f08f420456e4fc385a1b0570271a3a3f6ca24",
-                "reference": "b27f08f420456e4fc385a1b0570271a3a3f6ca24",
+                "url": "https://api.github.com/repos/php-ai/php-ml/zipball/797952e1bcac18f139bb00d623510ffec0cbd926",
+                "reference": "797952e1bcac18f139bb00d623510ffec0cbd926",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.0.0"
+                "php": "^7.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "^6.0"
+                "phpstan/phpstan-phpunit": "^0.9.4",
+                "phpstan/phpstan-shim": "^0.9",
+                "phpstan/phpstan-strict-rules": "^0.9.0",
+                "phpunit/phpunit": "^7.0.0",
+                "symplify/coding-standard": "^3.1",
+                "symplify/easy-coding-standard": "^3.1"
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "Phpml": "src/"
+                "psr-4": {
+                    "Phpml\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -53,7 +58,7 @@
                 "machine learning",
                 "pattern recognition"
             ],
-            "time": "2017-03-29 10:58:12"
+            "time": "2018-02-16T19:41:37+00:00"
         }
     ],
     "packages-dev": [],
