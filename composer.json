@@ -17,6 +17,6 @@
     }
   ],
   "require": {
-    "php-ai/php-ml": "dev-master"
+    "php-ai/php-ml": "0.6.2"
   }
 }

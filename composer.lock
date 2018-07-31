@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "68e4c882c7f6bd43b063f4143871e7bc",
+    "content-hash": "5c0b77c2b5992a99ba68384b2caaa5d6",
     "packages": [
         {
             "name": "php-ai/php-ml",
-            "version": "dev-master",
+            "version": "0.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-ai/php-ml.git",
-                "reference": "66ca874062795671e97c093e7b614f91749eb481"
+                "reference": "83f3e8de7021d58297f5357cfeb293a347a2fa39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-ai/php-ml/zipball/66ca874062795671e97c093e7b614f91749eb481",
-                "reference": "66ca874062795671e97c093e7b614f91749eb481",
+                "url": "https://api.github.com/repos/php-ai/php-ml/zipball/83f3e8de7021d58297f5357cfeb293a347a2fa39",
+                "reference": "83f3e8de7021d58297f5357cfeb293a347a2fa39",
                 "shasum": ""
             },
             "require": {
@@ -58,15 +58,13 @@
                 "machine learning",
                 "pattern recognition"
             ],
-            "time": "2018-03-06T22:26:36+00:00"
+            "time": "2018-02-22T16:06:31+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "php-ai/php-ml": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
