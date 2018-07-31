@@ -2,9 +2,14 @@
   "name": "php-ai/php-ml-examples",
   "type": "project",
   "description": "Examples of the use of PHP-ML library",
-  "license": "MIT",
-  "keywords": ["machine learning","pattern recognition","computational learning theory","artificial intelligence"],
+  "keywords": [
+    "machine learning",
+    "pattern recognition",
+    "computational learning theory",
+    "artificial intelligence"
+  ],
   "homepage": "https://github.com/php-ai/php-ml-examples",
+  "license": "MIT",
   "authors": [
     {
       "name": "Arkadiusz Kondas",
