@@ -2,6 +2,12 @@
 
 Examples of the use of PHP-ML library
 
+## Projects
+
+Interesting demo/examples projects using `php-ml`:
+
+* [Code Review Estimator](https://github.com/akondas/code-review-estimator) - Simple showcase of machine learning for code review cost estimation.
+
 ## Examples
 
 To test example, select one of the following and run it from main folder (each category has its own folder).
