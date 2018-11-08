@@ -17,6 +17,6 @@
     }
   ],
   "require": {
-    "php-ai/php-ml": "0.6.2"
+    "php-ai/php-ml": "0.7.0"
   }
 }

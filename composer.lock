@@ -4,32 +4,33 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5c0b77c2b5992a99ba68384b2caaa5d6",
+    "content-hash": "51744d449f8402679eea8de2bde1b87b",
     "packages": [
         {
             "name": "php-ai/php-ml",
-            "version": "0.6.2",
+            "version": "0.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-ai/php-ml.git",
-                "reference": "83f3e8de7021d58297f5357cfeb293a347a2fa39"
+                "reference": "db95db3e57475df53d602b32c4451438c21e46c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-ai/php-ml/zipball/83f3e8de7021d58297f5357cfeb293a347a2fa39",
-                "reference": "83f3e8de7021d58297f5357cfeb293a347a2fa39",
+                "url": "https://api.github.com/repos/php-ai/php-ml/zipball/db95db3e57475df53d602b32c4451438c21e46c3",
+                "reference": "db95db3e57475df53d602b32c4451438c21e46c3",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1"
             },
             "require-dev": {
-                "phpstan/phpstan-phpunit": "^0.9.4",
-                "phpstan/phpstan-shim": "^0.9",
-                "phpstan/phpstan-strict-rules": "^0.9.0",
+                "phpbench/phpbench": "^0.14.0",
+                "phpstan/phpstan-phpunit": "^0.10",
+                "phpstan/phpstan-shim": "^0.10",
+                "phpstan/phpstan-strict-rules": "^0.10",
                 "phpunit/phpunit": "^7.0.0",
-                "symplify/coding-standard": "^3.1",
-                "symplify/easy-coding-standard": "^3.1"
+                "symplify/coding-standard": "^5.1",
+                "symplify/easy-coding-standard": "^5.1"
             },
             "type": "library",
             "autoload": {
@@ -58,7 +59,7 @@
                 "machine learning",
                 "pattern recognition"
             ],
-            "time": "2018-02-22T16:06:31+00:00"
+            "time": "2018-11-07T18:40:31+00:00"
         }
     ],
     "packages-dev": [],

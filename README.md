@@ -19,6 +19,7 @@ php classification/languageDetection.php
 Classification:
 
 * `languageDetection.php` - classifier build for language detection
+* `minst.php` - recognize handwritten digits from MNIST dataset (to download dataset use `bin/download-mnist.sh`)
 
 Regression:
 
