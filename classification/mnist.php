@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace PhpmlExamples;
 
 use Phpml\Classification\SVC;
@@ -11,8 +13,8 @@ require 'vendor/autoload.php';
 
 function convert($size)
 {
-    $unit=array('b','kb','mb','gb','tb','pb');
-    return @round($size/pow(1024,($i=floor(log($size,1024)))),2).' '.$unit[$i];
+    $unit=['b','kb','mb','gb','tb','pb'];
+    return @round($size/pow(1024, ($i=floor(log($size, 1024)))), 2).' '.$unit[$i];
 }
 
 $start = $loadStart = microtime(true);
