@@ -5,7 +5,7 @@ $header = fgetcsv($handle);
 
 $lines = [];
 $index = 0;
-$filter = ['ARSON'];
+$filter = ['ROBBERY'];
 while (($row = fgetcsv($handle)) !== false) {
     if(!in_array($row[6], $filter)) {
         continue;
@@ -23,5 +23,5 @@ while (($row = fgetcsv($handle)) !== false) {
 }
 fclose($handle);
 
-file_put_contents(__DIR__ . '/../data/crimes-arson.csv', implode(PHP_EOL, $lines));
+file_put_contents(__DIR__ . '/../data/crimes-robbery.csv', implode(PHP_EOL, $lines));
 
