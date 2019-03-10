@@ -7,3 +7,5 @@ humbuglog.*
 /data/train-labels-idx1-ubyte
 /data/t10k-images-idx3-ubyte
 /data/t10k-labels-idx1-ubyte
+/data/stackoverflow_*.csv
+/data/crimes*.csv
