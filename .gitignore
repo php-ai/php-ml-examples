@@ -9,3 +9,4 @@ humbuglog.*
 /data/t10k-labels-idx1-ubyte
 /data/stackoverflow_*.csv
 /data/crimes*.csv
+/data/bbc

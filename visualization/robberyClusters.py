@@ -26,10 +26,7 @@ def cluster_to_color(cluster):
 with open('data/crimes-robbery-clusters.csv') as csvfile:
     reader = csv.reader(csvfile, delimiter=';')
     for row in reader:
-        if row[0] == 'C':
-            marker = CircleMarker((float(row[2]), float(row[1])), (0,0,0), 15)
-        else:
-            marker = CircleMarker((float(row[2]), float(row[1])), cluster_to_color(row[0]), 6)
+        marker = CircleMarker((float(row[2]), float(row[1])), cluster_to_color(row[0]), 6)
         m.add_marker(marker)
 
 image = m.render(center=[-87.684871189, 41.8348221989])
