@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "01792e300aa1a4d851ba3b7c9c2f6a09",
+    "content-hash": "8a52bfd08b32850b0b1439755dde2209",
     "packages": [
         {
             "name": "php-ai/php-ml",
-            "version": "0.7.0",
+            "version": "0.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-ai/php-ml.git",
-                "reference": "db95db3e57475df53d602b32c4451438c21e46c3"
+                "reference": "5e02b893e904761cd7e2415b11778cd421494c07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-ai/php-ml/zipball/db95db3e57475df53d602b32c4451438c21e46c3",
-                "reference": "db95db3e57475df53d602b32c4451438c21e46c3",
+                "url": "https://api.github.com/repos/php-ai/php-ml/zipball/5e02b893e904761cd7e2415b11778cd421494c07",
+                "reference": "5e02b893e904761cd7e2415b11778cd421494c07",
                 "shasum": ""
             },
             "require": {
@@ -59,7 +59,7 @@
                 "machine learning",
                 "pattern recognition"
             ],
-            "time": "2018-11-07T18:40:31+00:00"
+            "time": "2019-03-20T22:22:45+00:00"
         }
     ],
     "packages-dev": [

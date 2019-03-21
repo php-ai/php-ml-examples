@@ -10,3 +10,5 @@ humbuglog.*
 /data/stackoverflow_*.csv
 /data/crimes*.csv
 /data/bbc
+/model/*
+!/model/.gitkeep
