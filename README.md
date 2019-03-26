@@ -12,7 +12,7 @@ Interesting demo/examples projects using `php-ml`:
 
 Many of samples from this repository was used in my articles
 
- * Text data classification with BBC news article dataset
+ * [Text data classification with BBC news article dataset](https://arkadiuszkondas.com/text-data-classification-with-bbc-news-article-dataset/)
  * [Clustering Chicago robberies locations with k-means algorithm](https://arkadiuszkondas.com/clustering-chicago-robberies-locations-with-k-means-algorithm/)
  * [Predict air pollution with k-Nearest Neighbors and PHP](https://arkadiuszkondas.com/predict-air-pollution-with-k-nearest-neighbors-and-php/)
 
